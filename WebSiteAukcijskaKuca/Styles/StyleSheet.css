@@ -1,0 +1,315 @@
+﻿body   
+{
+    background: #b6b7bc;
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+    
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+.page
+{
+    width: 800;
+    background-color: #fff;
+    min-height:410px;
+    border: 1px solid #496077;
+}
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background: #4b6c9e;
+    width: 100%;
+}
+
+.elementGrid
+{    
+    width: 120px;
+}
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    line-height: normal;   
+
+}
+
+
+div.hideSkiplink
+{
+    background-color:#3a4f63;
+    width:100%;
+}
+
+div.menu
+{
+    padding: 4px 0px 4px 8px;
+    
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    background-color: #465c71;
+    border: 1px #4e667d solid;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+div.menu ul li a:hover
+{
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+.login
+{
+    margin: 60px 300px;
+    display: block;    
+}
+
+.reg
+{
+    margin: 5px 250px;
+    display: block;
+}
+
+.divTable, .divTableAXA, .divTableArticle, .divTableOffers, .divTableRequests, .divTableArticleUser, .divTableOfferUser
+{
+    margin: 10px; 
+}
+
+.divTableOffers th, .divTableOffers td
+{
+    width:110px;
+}
+
+.divTableOfferUser th:not(:last-child)
+{
+    width:110px;
+}
+
+.divTableRequests th:not(:last-child), .divTableRequests td:not(:last-child), .divTableArt th, .divTableArt td
+{
+     width:100px;
+}
+
+.divTableAXA select
+{
+    width:170px;
+}
+
+.divTable th:not(:last-child), .divTableAXA th:not(:last-child)
+{
+   width: 170px;
+}
+
+.divTableArticle th:not(3n)
+{
+   width: 170px;
+}
+
+.divTableArticleUser th, .divTableArticleUser td
+{
+   width: 100px;
+}
+
+.divTableArticle th:nth-child(3n), .divTableArticle th:nth-child(4n), .divTableArticle th:nth-child(5n)
+{
+  text-align: left;
+}
+
+.logout
+{
+    display: block;
+    float: right;
+    text-align: right;
+    width: auto;
+    margin: 15px 10px;
+}
+
+.hover tr:hover
+{
+    background-color:#E2DED6;
+    font-weight: bold;
+    color:#333333;    
+}
+
+.emptydatatxtTime
+{
+    width: 120px;  
+}
+
+.emptydataimage
+{
+    margin-top:0px;
+}
+
+.regRole
+{
+    margin-left: -23px;
+    text-align: center;
+    vertical-align: middle;
+}
+.style1
+{
+    text-align:left;
+    padding: 10px 20px 0px 20px;    
+
+}     
+
+.style11
+{
+    text-align:left;
+    padding: 10px 20px 0px 20px;    
+    width: 300px;      
+    display: block;
+    float: left;
+}   
+  
+.pad
+{
+    padding-top: 10px;
+    width: 300px;  
+    display: inline-block;
+}  
+
+.filter
+{
+    width: 60px;
+    height: 33px; 
+    background-color: #3a4f63;
+    border: 0.5px solid black;
+    border-radius: 2px;
+    color: white;   
+}
+
+.fieldsetL
+{
+    background-color: #5D7B9D;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: white;   
+}
+
+.messageFilter
+{
+    float: right;
+    width: 300px;
+    margin-right: 172px;    
+}
